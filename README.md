@@ -5,16 +5,11 @@
 ---
 
 ## Sobre o Projeto
-
 estou trabalgando pra desenvolver melhor e facilitar o acesso, só para administradores
-
 Este projeto é uma aplicação desktop (GUI) que visa facilitar o controle de inventário de uma linha de montagem. O diferencial deste sistema é a **lógica de produção**: ele não apenas cadastra itens, mas entende a relação entre "Peças" e "Produto Final".
-
 O sistema conecta-se a um banco de dados para garantir que todas as informações sejam salvas de forma segura e persistente, banco de dados feito em python.
 
-### ⚙️ Lógica do Sistema
 O fluxo principal funciona da seguinte maneira:
-
 1.  **Entrada de Peças:** O usuário cadastra as peças que chegaram (ex: Sensores, Carcaças, Cabos).
 2.  **Montagem (Produção):** Ao solicitar a criação de um produto final (ex: "Mouse Gamer"), o sistema verifica se há peças suficientes.
 3.  **Atualização Automática:** Se houver peças, o sistema:
@@ -23,7 +18,6 @@ O fluxo principal funciona da seguinte maneira:
     * 💾 **Salva** tudo no banco de dados instantaneamente.
 
 ---
-
 ## 🚀 Funcionalidades
 
 - [x] **Login de Administrador:** Acesso seguro ao sistema.
