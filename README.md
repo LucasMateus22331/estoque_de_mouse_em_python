@@ -37,6 +37,8 @@ O fluxo principal funciona da seguinte maneira:
 * **Driver DB:** mysql-connector-python
 
 obs: projeito feito para treinar e academico
+desenvolva com calma que aprende rapido
+
 
 
 
